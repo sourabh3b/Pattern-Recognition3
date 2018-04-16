@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5745fd0c-aa1d-427e-885d-576ffcdcb7f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/decisionTree/decisiontree.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/main" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/randomForestDecisionTree/Forest.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/randomForestDecisionTree/Regression/RegressionForest.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/randomForestDecisionTree/Regression/RegressionTree.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/randomForestDecisionTree/Tree.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/decisionTree/decisiontree.go" afterPath="$PROJECT_DIR$/decisionTree/decisiontree.go" />
       <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,36 +20,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#14#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="decisiontree.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decisionTree/decisiontree.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="1634">
+              <caret line="110" column="81" lean-forward="false" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
               <folding>
-                <element signature="e#22#38#0" expanded="true" />
+                <element signature="e#22#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Tree.go">
+      <file leaf-file-name="Forest.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomForestDecisionTree/Forest.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3807">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="277">
+              <caret line="33" column="90" lean-forward="false" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
+              <folding>
+                <element signature="e#216#286#0" expanded="true" />
+                <element signature="e#299#323#0" expanded="false" />
+                <element signature="n#!!block;n#DefaultForest#0" expanded="false" />
+                <element signature="n#!!block;n#DumpForest#0" expanded="false" />
+                <element signature="n#!!block;n#LoadForest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +51,8 @@
       <file leaf-file-name="mnist_rf.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/mnist_rf.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-398">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="-5">
+              <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
               <folding>
                 <element signature="e#13#110#0" expanded="true" />
               </folding>
@@ -61,24 +60,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Forest.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Forest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-418">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="43" />
+              <folding>
+                <element signature="e#102#126#0" expanded="false" />
+                <element signature="n#!!block;n#DefaultForest#0" expanded="false" />
+                <element signature="n#!!block;n#DumpForest#0" expanded="false" />
+                <element signature="n#!!block;n#LoadForest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/run.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mnist.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gomnist/mnist.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="e#17#102#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +103,11 @@
       <list>
         <option value="$PROJECT_DIR$/gomnist/mnist.go" />
         <option value="$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/run.sh" />
-        <option value="$PROJECT_DIR$/decisionTree/decisiontree.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/mnist_rf.go" />
+        <option value="$PROJECT_DIR$/../fxsjy/RF.go/RF/Forest.go" />
+        <option value="$PROJECT_DIR$/randomForestDecisionTree/Forest.go" />
+        <option value="$PROJECT_DIR$/decisionTree/decisiontree.go" />
       </list>
     </option>
   </component>
@@ -112,9 +117,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1425" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectView">
@@ -144,11 +150,87 @@
             <path>
               <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pattern-Recognition3" type="462c0819:PsiDirectoryNode" />
+              <item name="decisionTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern-Recognition3" type="462c0819:PsiDirectoryNode" />
               <item name="gomnist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern-Recognition3" type="462c0819:PsiDirectoryNode" />
+              <item name="randomForestDecisionTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="fxsjy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="fxsjy" type="462c0819:PsiDirectoryNode" />
+              <item name="RF.go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="fxsjy" type="462c0819:PsiDirectoryNode" />
+              <item name="RF.go" type="462c0819:PsiDirectoryNode" />
+              <item name="example_mnist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="fxsjy" type="462c0819:PsiDirectoryNode" />
+              <item name="RF.go" type="462c0819:PsiDirectoryNode" />
+              <item name="RF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;Pattern-Recognition3&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="fxsjy" type="462c0819:PsiDirectoryNode" />
+              <item name="RF.go" type="462c0819:PsiDirectoryNode" />
+              <item name="RF" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,6 +243,11 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,13 +265,14 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="789" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="789" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20529328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -195,7 +283,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -207,15 +294,148 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Tree.go">
+    <entry file="file://$PROJECT_DIR$/gomnist/mnist.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3807">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomForestDecisionTree/Regression/RegressionTree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomForestDecisionTree/Regression/RegressionForest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding>
+            <element signature="e#20#97#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomForestDecisionTree/Tree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_cars/car.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2671">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_iris/iris2.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Regression/RegressionTree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3650">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Regression/RegressionForest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Tree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="239" column="5" lean-forward="false" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/RF/Forest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#102#126#0" expanded="false" />
+            <element signature="n#!!block;n#DefaultForest#0" expanded="false" />
+            <element signature="n#!!block;n#DumpForest#0" expanded="false" />
+            <element signature="n#!!block;n#LoadForest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/mnist_rf.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="105" column="20" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+          <folding>
+            <element signature="e#13#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomForestDecisionTree/Forest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="90" lean-forward="false" selection-start-line="33" selection-start-column="90" selection-end-line="33" selection-end-column="90" />
+          <folding>
+            <element signature="e#216#286#0" expanded="true" />
+            <element signature="e#299#323#0" expanded="false" />
+            <element signature="n#!!block;n#DefaultForest#0" expanded="false" />
+            <element signature="n#!!block;n#DumpForest#0" expanded="false" />
+            <element signature="n#!!block;n#LoadForest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decisionTree/decisiontree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="110" column="81" lean-forward="false" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
+          <folding>
+            <element signature="e#22#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -224,46 +444,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fxsjy/RF.go/example_mnist/mnist_rf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#13#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gomnist/mnist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decisionTree/decisiontree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#22#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#132#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
