@@ -8,7 +8,7 @@
     sourabh:example_mnist sourabh$ ./mnist_rf -trif train-images-idx3-ubyte -trlf train-labels-idx1-ubyte -tif t10k-images-idx3-ubyte -tlf t10k-labels-idx1-ubyte     
 
 #### Approach
-In order to classify MNIST data we can use decision tree classification. Decision tree is a supervised learning algorithm that can be used to classify data based on a model it has built on training data. Since MNIST dataset has digits from 0 to 9, we can classify recursively using decision tree algorithm. On way is to use divide and conquer approach, where the digits is split into 2 parts and done until single digit is remaining. For Example : we can first classify 0,1,2,3,4 and 5,6,7,8,9. In second step, classify 0,1,2 and 3,4 and 5,6,7, and 7,8. Hence ,I am classifying digits in divide and conquer rule. Another easy way it to use SVM package available as a python library. But in this approach I am using decision tree approach to learn more about the theory behind it. 
+In order to classify MNIST data we can use decision tree classification. Decision tree is a supervised learning algorithm that can be used to classify data based on a model it has built on training data. Since MNIST dataset has digits from 0 to 9, we can classify recursively using decision tree algorithm. On way is to use divide and conquer approach, where the digits is split into 2 parts and done until single digit is remaining. For Example : we can first classify 0,1,2,3,4 and 5,6,7,8,9. In second step, classify 0,1,2 and 3,4 and 5,6,7, and 7,8. Hence ,I am classifying digits in divide and conquer rule. Another easy way it to use SVM package available as a python library. 
 
 
 ##### Decision Tree  
